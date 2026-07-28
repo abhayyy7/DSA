@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/abhayyy7/DSA/tree/master/0162-find-peak-element) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/abhayyy7/DSA/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0875-koko-eating-bananas](https://github.com/abhayyy7/DSA/tree/master/0875-koko-eating-bananas) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/abhayyy7/DSA/tree/master/1679-max-number-of-k-sum-pairs) |
 ## Binary Search
 |  |
 | ------- |
@@ -39,9 +40,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/abhayyy7/DSA/tree/master/0015-3sum) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/abhayyy7/DSA/tree/master/1679-max-number-of-k-sum-pairs) |
 | [3536-maximum-product-of-two-digits](https://github.com/abhayyy7/DSA/tree/master/3536-maximum-product-of-two-digits) |
 ## Two Pointers
 |  |
 | ------- |
 | [0015-3sum](https://github.com/abhayyy7/DSA/tree/master/0015-3sum) |
+| [1679-max-number-of-k-sum-pairs](https://github.com/abhayyy7/DSA/tree/master/1679-max-number-of-k-sum-pairs) |
+## Hash Table
+|  |
+| ------- |
+| [1679-max-number-of-k-sum-pairs](https://github.com/abhayyy7/DSA/tree/master/1679-max-number-of-k-sum-pairs) |
 <!---LeetCode Topics End-->
