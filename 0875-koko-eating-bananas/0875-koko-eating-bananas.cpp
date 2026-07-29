@@ -1,20 +1,20 @@
 class Solution {
 public:
-    bool solve(int mid, vector<int>& piles, int h){
-        int time = 0;
-        for(int x : piles){
-            time += (x+mid-1)/mid;
+    bool solve(vector<int>& piles,int k,int h){
+        long long count = 0;
+        for(int i = 0; i < piles.size(); i++){
+            if(piles[i] >= k) count += ((piles[i]+k-1)/k);
+            else count++;
         }
-        return time <= h;
+        return count <= h;
     }
     int minEatingSpeed(vector<int>& piles, int h) {
-        int n = piles.size();
-        sort(piles.begin(),piles.end());
-        int low = 1, high = piles[n-1];
-        while(low < high){
+        int low = 1;
+        int high = *max_element(piles.begin(),piles.end());
+        while(low <= high){
             int mid = low + (high-low)/2;
-            if(solve(mid,piles,h)) high = mid;
-            else low = mid + 1;
+            if(solve(piles,mid,h)) high = mid-1;
+            else low = mid+1;
         }
         return low;
     }
